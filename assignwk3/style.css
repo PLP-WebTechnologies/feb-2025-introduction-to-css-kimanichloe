@@ -1,0 +1,45 @@
+/* Basic Reset (Optional but Recommended) */
+body, h1, p, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean, readable sans-serif font */
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+/* Styling using an ID selector */
+#hero-image {
+    display: block; /* Prevents extra space below the image */
+    max-width: 80%; /* Makes the image responsive */
+    height: auto;
+    margin: 30px auto; /* Centers the image horizontally with top and bottom margin */
+    border: 8px solid #e9ecef; /* Light border */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling using a class selector */
+.section-title {
+    font-family: 'Merriweather', serif; /* A readable serif font for titles */
+    color: #007bff; /* A primary blue color */
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc; /* Underline for the title */
+}
+
+/* Styling using a tag selector */
+div {
+    margin: 20px;
+    padding: 25px;
+    background-color: #fff; /* White background for content blocks */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+}
